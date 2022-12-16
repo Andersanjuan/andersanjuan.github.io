@@ -1,5 +1,5 @@
 # andersanjuan.github.io
-Personal website to display current projects and contact information through git pages as a static website:
+Personal website to display portfolio of current projects and contact information through git pages as a static website:
 
 https://andersanjuan.github.io/
 
