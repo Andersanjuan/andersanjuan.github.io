@@ -69,8 +69,6 @@
       {% endif %}
 
 
-
-
       {% if site.resume_section_education %}
       <!-- begin Education -->
       <section class="content-section">
@@ -85,7 +83,7 @@
           <h5 class="resume-item-details coursework-title" itemprop="description">{{ education.coursework }}</h5>
           <p class="resume-item-copy" itemprop="description">
             <ul class="resume-item-list">
-              {% for coursework in education.courseworks %}
+              {% for coursework in education.coursework %}
               <li>{{ coursework.coursework }}</li>
               {% endfor %}
             </ul>
